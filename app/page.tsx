@@ -11,15 +11,11 @@ const styles = {
 };
 
 export default function Home() {
-  const mainWrapperStyles = `flex min-h-screen flex-col items-center justify-between p-24`;
-  const formWrapperStyles = `bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4`;
-  const copyRightStyles = `text-center text-gray-500 text-xs`;
-
   return (
-    <main className={mainWrapperStyles}>
-      <div className="w-full max-w-xs">
-        <form className={formWrapperStyles}>
-          <div className="mb-4">
+    <main className={styles.mainWrapper}>
+      <div className={styles.formWrapper}>
+        <form className={styles.formElement}>
+          <div className={styles.inputWrapper}>
             <label className={formStyles.label} htmlFor="username">
               Username
             </label>
@@ -30,7 +26,7 @@ export default function Home() {
               placeholder="Username"
             />
           </div>
-          <div className="mb-6">
+          <div className={styles.inputWrapper}>
             <label className={formStyles.label} htmlFor="password">
               Password
             </label>
@@ -42,7 +38,7 @@ export default function Home() {
             />
             <p className={formStyles.errorMessage}>Please choose a password.</p>
           </div>
-          <div className="flex items-center justify-between">
+          <div className={styles.buttonsWrapper}>
             <button className={buttonStyles.primary} type="button">
               Sign In
             </button>
@@ -51,7 +47,7 @@ export default function Home() {
             </a>
           </div>
         </form>
-        <p className={copyRightStyles}>&copy;2023 Marek Sommerą</p>
+        <p className={styles.copyRight}>&copy;2023 Marek Sommerą</p>
       </div>
     </main>
   );
