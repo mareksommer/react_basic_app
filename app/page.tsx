@@ -1,6 +1,15 @@
 import formStyles from "../styles/form";
 import buttonStyles from "../styles/buttons";
 
+const styles = {
+  mainWrapper: `flex min-h-screen flex-col items-center justify-between p-24`,
+  formWrapper: `w-full max-w-xs`,
+  formElement: `bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4`,
+  inputWrapper: `mb-6`,
+  buttonsWrapper: `flex items-center justify-between`,
+  copyRight: `text-center text-gray-500 text-xs`,
+};
+
 export default function Home() {
   const mainWrapperStyles = `flex min-h-screen flex-col items-center justify-between p-24`;
   const formWrapperStyles = `bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4`;
