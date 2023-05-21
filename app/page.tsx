@@ -38,7 +38,7 @@ export default function Home() {
             </a>
           </div>
         </form>
-        <p className={styles.copyRight}>&copy;2023 Marek Sommerą</p>
+        <p className={styles.copyRight}>&copy;2023 Marek Sommer</p>
       </div>
     </main>
   );
