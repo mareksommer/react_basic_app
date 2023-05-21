@@ -1,7 +1,7 @@
-import formStyles from "../styles/form";
-import buttonStyles from "../styles/buttons";
+import formStyles from "../../styles/form";
+import buttonStyles from "../../styles/buttons";
 
-export default function Home() {
+export default function Login() {
   return (
     <main className={styles.mainWrapper}>
       <div className={styles.formWrapper}>
