@@ -1,0 +1,14 @@
+{
+  "user": {
+    "email": "Email",
+    "password": "Password"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Heslo",
+    "login": "Login",
+    "forgot": "Forgot password",
+    "register": "Register"
+  }
+}

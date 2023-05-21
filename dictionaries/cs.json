@@ -1,0 +1,14 @@
+{
+  "user": {
+    "email": "Email",
+    "password": "Heslo"
+  },
+  "login": {
+    "title": "Přihlášení",
+    "email": "Email",
+    "password": "Heslo",
+    "login": "Přihlásit se",
+    "forgot": "Zapomenuté heslo",
+    "register": "Registrace"
+  }
+}
