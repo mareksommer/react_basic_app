@@ -1,5 +1,5 @@
-import formStyles from "../../styles/form";
-import buttonStyles from "../../styles/buttons";
+import formStyles from "@/styles/form";
+import buttonStyles from "@/styles/buttons";
 
 export default function Login() {
   return (
